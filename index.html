@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Home Finder</title>
+    <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+
+  <header>
+      <h1>Welcome To Your New Home</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#agents">Agents</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+<section id="properties" class="properties">
+    <div class="property property1">
+        <img src="https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg" alt="Property 1">
+        <h3>Family House</h3>
+        <p>Kilifi</p>
+        <p>Price: $6000,000</p>
+        <a href="property1.html" class="btn">View Details</a>
+    </div>
+    <div class="property property2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJB4o_HH5u0Y9L3oJD4eV7i61ZeSNsb_irXw&" alt="Property 2">
+        <h3>Royal Gardens Apartments</h3>
+        <p>Nairobi</p>
+        <p>Price: $2000,000</p>
+        <a href="property2.html" class="btn">View Details</a>
+    </div>
+    <div class="property property3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2RYz_d1RTK6q9iuNtfYga-nWFKd8VeYyu6w&s" alt="Property 3">
+        <h3>Mountain View Apartments</h3>
+        <p>Nairobi</p>
+        <p>Price: $6000,000</p>
+        <a href="property2.html" class="btn">View Details</a>
+    </div>
+    <div class="property property4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJB4o_HH5u0Y9L3oJD4eV7i61ZeSNsb_irXw&" alt="Property 4">
+        <h3></h3>
+        <p>Mombasa</p>
+        <p>Price: $800,000</p>
+        <a href="property2.html" class="btn">View Details</a>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+
+
+</body>
+</html>

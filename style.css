@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header .logo img {
+    max-width: 150px; /* Adjust as needed */
+    vertical-align: middle;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero .btn:hover {
+    background-color: #45a049;
+}
+.properties, .agents, .contact {
+    padding: 80px 0;
+    text-align: center;
+}
+.properties .property, .agents .agent {
+    margin-bottom: 40px;
+}
+.properties .property img, .agents .agent img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.properties .property .btn, .agents .agent .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.properties .property .btn:hover, .agents .agent .btn:hover {
+    background-color: #2980b9;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact form textarea {
+    resize: vertical;
+}
+.contact form .btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact form .btn:hover {
+    background-color: #d35400;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.footer-social .social-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer-social .social-link:hover {
+    text-decoration: underline;
+}
+.properties {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if necessary */
+}
+
+.property {
+    width: 45%; /* Adjust width to leave space between properties */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.property img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.property h3 {
+    font-size: 1.2em;
+}
+
+.property p {
+    margin-bottom: 5px;
+}
+
+.property .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.property .btn:hover {
+    background-color: #2980b9;
+}
