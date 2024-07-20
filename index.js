@@ -1,6 +1,6 @@
 const fs = require('fs').promises; // Use fs.promises for async file operations
 
-const url = "https://us-real-estate-listings.p.rapidapi.com";
+const url = "https://zillow-com1.p.rapidapi.com/valueHistory/localRentalRates";
 const apiKey = "83827e693fmshef19fdf648ff644p14635ajsn97b0340";
 
 async function fetchData() {
