@@ -14,11 +14,10 @@ Open the index.html file in your web browser to view the application.
 
 
  # Table of Contents
-  1. Features
-  2. Setup Instructions
-  3. Usage
-  4. Contributing
-  5. License
+  1. Feature  
+  2. Usage
+  3. Contributing
+  4. License
 # Features
 Homepage: Start your journey on our homepage where you can learn about our mission and navigate to key sections.
 
