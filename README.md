@@ -22,7 +22,7 @@ Contact Us: Reach out to us directly via the contact form.
 1. Clone the repository:
 bash
 Copy code
-git clone https://https://github.com/brendan544/My-real-estate-website.git
+git clone https:git@github.com:brendan544/My-real-estate-website.git
 cd dream-home-finder
 2. Install dependencies:
 This project doesn't have any specific dependencies apart from basic HTML, CSS, and JavaScript.
