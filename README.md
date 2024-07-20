@@ -1,10 +1,9 @@
 # Dream Home Finder
 Welcome to Dream Home Finder, a web application designed to help users find their dream homes quickly and conveniently. Whether you're searching for a modern city apartment, a luxurious beachfront villa, or a cozy suburban house, our platform offers a curated selection of featured properties to suit various preferences and budgets.
-Here is the link to the website  http://127.0.0.1:5500/index.html 
-
+Here is the link to the website http://127.0.0.1:5500/index.htmlll
 
  # Table of Contents
-  1. Feature  
+  1. Features
   2. Usage
   3. Contributing
   4. License
@@ -33,9 +32,4 @@ Contributions are welcome! If you have ideas for improvements or new features, f
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to customize this README file further to include specific instructions or additional sections relevant to your project. This structure provides a clear overview of your Dream Home Finder application, making it easier for others to understand, use, and contribute to your project.
-
-
-
-
-
 
