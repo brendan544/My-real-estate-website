@@ -1,73 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Home Finder</title>
-    <link rel="stylesheet" href="style.css">      
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Home Finder</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
+    <div class="header-content">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8YO0kWhoK5RN2FzZBWmwtr2-j3nLYXHD0w&s" alt="Dream Home Finder" class="logo">
       <h1>Welcome To Your New Home</h1>
-    <nav>
+      <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#properties">Properties</a></li>
-            <li><a href="#agents">Agents</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-<section id="properties" class="properties">
-    <div class="property property1">
-        <img src="https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg" alt="Property 1">
-        <h3>Family House</h3>
-        <p>Kilifi</p>
-        <p>Price: $6000,000</p>
-        <a href="property1.html" class="btn">View Details</a>
-    </div>
-    <div class="property property2">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJB4o_HH5u0Y9L3oJD4eV7i61ZeSNsb_irXw&" alt="Property 2">
-        <h3>Royal Gardens Apartments</h3>
-        <p>Nairobi</p>
-        <p>Price: $2000,000</p>
-        <a href="property2.html" class="btn">View Details</a>
-    </div>
-    <div class="property property3">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2RYz_d1RTK6q9iuNtfYga-nWFKd8VeYyu6w&s" alt="Property 3">
-        <h3>Mountain View Apartments</h3>
-        <p>Nairobi</p>
-        <p>Price: $6000,000</p>
-        <a href="property2.html" class="btn">View Details</a>
-    </div>
-    <div class="property property4">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJB4o_HH5u0Y9L3oJD4eV7i61ZeSNsb_irXw&" alt="Property 4">
-        <h3></h3>
-        <p>Mombasa</p>
-        <p>Price: $800,000</p>
-        <a href="property2.html" class="btn">View Details</a>
-    </div>
-</section>
+  <main>
+    <section id="home" class="section">
+      <div class="hero">
+        <h2>Find Your Dream Home</h2>
+        <p>Discover the perfect place to call your own.</p>
+        <a href="#properties" class="btn">View Properties</a>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+    </section>
 
-<section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form action="contact.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    <section id="properties" class="section">
+      <h2>Featured Properties</h2>
+      <div class="property-list">
         
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <div class="property">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipFj38ymLrASK3nmR_e0wAzrc3-C56mhGMA&s" alt="Property 1">
+          <div class="property-details">
+            <h3>Modern City Apartment</h3>
+            <p>Price: $500,000</p>
+            <p>Location: City Center</p>
+            <a href="#" class="btn">View Details</a>
+          </div>
+        </div>
         
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <div class="property">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXsesnQtcA_aqKLNc-oj7PHvFY2avHO_BdA&s" alt="Property 2">
+          <div class="property-details">
+            <h3>Luxury Villa with Pool</h3>
+            <p>Price: $1,200,000</p>
+            <p>Location: Beachfront</p>
+            <a href="#" class="btn">View Details</a>
+          </div>
+        </div>
         
-        <button type="submit" class="btn">Send Message</button>
-    </form>
-</section>
+        <div class="property">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxW2dr61gWGC2T-9G-2D1tDX5_D-JBvtx0Q&s" alt="Property 3">
+          <div class="property-details">
+            <h3>Cozy Suburban House</h3>
+            <p>Price: $350,000</p>
+            <p>Location: Suburbs</p>
+            <a href="#" class="btn">View Details</a>
+          </div>
+        </div>
+        <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRifSybzouaK0JJcJozpOEqpHB-z6Yzs5FHig&s" alt="Property 4">
+            <div class="property-details">
+              <h3>Spacious Family Home</h3>
+              <p>Price: $600,000</p>
+              <p>Location: Suburbs</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxeQVSgBMFkxd4GJPDB1oqGUOHBuzlLRIzg&s" alt="Property 5">
+            <div class="property-details">
+              <h3>Mountain View Retreat</h3>
+              <p>Price: $800,000</p>
+              <p>Location: Mountains</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMBV1Np5vZXDM1VfUcTC0dFYmclFV9GlBOfw&s" alt="Property 6">
+            <div class="property-details">
+              <h3>Historic Downtown Loft</h3>
+              <p>Price: $450,000</p>
+              <p>Location: Downtown</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTlDtz4IGcTK7U9TOsnD83vi6gX510oG9vCQ&s" alt="Property 7">
+            <div class="property-details">
+              <h3>Seaside Condo</h3>
+              <p>Price: $700,000</p>
+              <p>Location: Coastal Area</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDiUQ0RzQnvKXob3LdECsqfzyjscir9zH8_Q&s" alt="Property 8">
+            <div class="property-details">
+              <h3>Country Farmhouse</h3>
+              <p>Price: $900,000</p>
+              <p>Location: Rural</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjgm9vLzwhBAPG5XnrTIyLnIIIFBX6YmIdQ&s" alt="Property 9">
+            <div class="property-details">
+              <h3>Contemporary Townhouse</h3>
+              <p>Price: $550,000</p>
+              <p>Location: City Outskirts</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuFTPnI1YZixwaUIi4UNP7Nw_ix2Vb5xhJcQ&s" alt="Property 10">
+            <div class="property-details">
+              <h3>Waterfront Estate</h3>
+              <p>Price: $1,500,000</p>
+              <p>Location: Waterfront</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhb7w6QLuOrlD5apEfsFem5COUhGcQb3zpYg&s" alt="Property 11">
+            <div class="property-details">
+              <h3>Charming Cottage</h3>
+              <p>Price: $400,000</p>
+              <p>Location: Countryside</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QVBjUkUhpz_Xd6HFjGCfp5ub0Vj0agY6vw&s" alt="Property 12">
+            <div class="property-details">
+              <h3>Modern Urban Loft</h3>
+              <p>Price: $620,000</p>
+              <p>Location: Urban</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="property">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJgmnu9eiNOjlKnJKJteGpR9tMNiDOvLepA&s" alt="Property 13">
+            <div class="property-details">
+              <h3>Private Island Retreat</h3>
+              <p>Price: $3,000,000</p>
+              <p>Location: Private Island</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="property-type" class="section">
+      <h2>Choose Your Property Type</h2>
+      <form id="propertyTypeForm">
+        <label>
+          <input type="radio" name="propertyType" value="apartment" checked>
+          Apartment
+        </label>
+        <label>
+          <input type="radio" name="propertyType" value="villa">
+          Villa
+        </label>
+        <label>
+          <input type="radio" name="propertyType" value="house">
+          House
+        </label>
+        <label>
+          <input type="radio" name="propertyType" value="condo">
+          Condo
+        </label>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  
+  </main>
+  
+  <footer>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="password" name="password" placeholder="Your Password" required>
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+    <p>&copy; 2024 Dream Homes. All rights reserved.</p>
+  </footer>
 
-
-
+  <script src="app.js"></script>
 </body>
 </html>
