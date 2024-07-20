@@ -1,5 +1,17 @@
 # Dream Home Finder
 Welcome to Dream Home Finder, a web application designed to help users find their dream homes quickly and conveniently. Whether you're searching for a modern city apartment, a luxurious beachfront villa, or a cozy suburban house, our platform offers a curated selection of featured properties to suit various preferences and budgets.
+Here is the link to the website  http://127.0.0.1:5500/index.html 
+1. Clone the repository:
+bash
+Copy code
+git clone
+cd dream-home-finder
+2. Install dependencies:
+This project doesn't have any specific dependencies apart from basic HTML, CSS, and JavaScript.
+
+3. Open the project:
+Open the index.html file in your web browser to view the application.
+
 
  # Table of Contents
   1. Features
@@ -17,18 +29,6 @@ Property Filtering: Use the property type form to filter listings by apartment, 
 Testimonials: Hear from satisfied customers in our testimonials section.
 
 Contact Us: Reach out to us directly via the contact form.
-
-## Setup Instructions
-1. Clone the repository:
-bash
-Copy code
-git clone https:https://github.com/brendan544/My-real-estate-website.git
-cd dream-home-finder
-2. Install dependencies:
-This project doesn't have any specific dependencies apart from basic HTML, CSS, and JavaScript.
-
-3. Open the project:
-Open the index.html file in your web browser to view the application.
 
 ## Usage
 1. Navigate through the sections using the navigation links in the header.
