@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Modern City Apartment",
+      "price": 500000,
+      "location": "City Center",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipFj38ymLrASK3nmR_e0wAzrc3-C56mhGMA&s"
+    },
+    {
+      "id": 2,
+      "name": "Luxury Villa with Pool",
+      "price": 1200000,
+      "location": "Beachfront",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXsesnQtcA_aqKLNc-oj7PHvFY2avHO_BdA&s"
+    },
+    {
+      "id": 3,
+      "name": "Cozy Suburban House",
+      "price": 350000,
+      "location": "Suburbs",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxW2dr61gWGC2T-9G-2D1tDX5_D-JBvtx0Q&s"
+    },
+    {
+      "id": 4,
+      "name": "Spacious Family Home",
+      "price": 600000,
+      "location": "Suburbs",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRifSybzouaK0JJcJozpOEqpHB-z6Yzs5FHig&s"
+    },
+    {
+      "id": 5,
+      "name": "Mountain View Retreat",
+      "price": 800000,
+      "location": "Mountains",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxeQVSgBMFkxd4GJPDB1oqGUOHBuzlLRIzg&s"
+    },
+    {
+      "id": 6,
+      "name": "Historic Downtown Loft",
+      "price": 450000,
+      "location": "Downtown",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMBV1Np5vZXDM1VfUcTC0dFYmclFV9GlBOfw&s"
+    },
+    {
+      "id": 7,
+      "name": "Seaside Condo",
+      "price": 700000,
+      "location": "Coastal Area",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTlDtz4IGcTK7U9TOsnD83vi6gX510oG9vCQ&s"
+    },
+    {
+      "id": 8,
+      "name": "Country Farmhouse",
+      "price": 900000,
+      "location": "Rural",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDiUQ0RzQnvKXob3LdECsqfzyjscir9zH8_Q&s"
+    },
+    {
+      "id": 9,
+      "name": "Contemporary Townhouse",
+      "price": 550000,
+      "location": "City Outskirts",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjgm9vLzwhBAPG5XnrTIyLnIIIFBX6YmIdQ&s"
+    },
+    {
+      "id": 10,
+      "name": "Waterfront Estate",
+      "price": 1500000,
+      "location": "Waterfront",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuFTPnI1YZixwaUIi4UNP7Nw_ix2Vb5xhJcQ&s"
+    },
+    {
+      "id": 11,
+      "name": "Charming Cottage",
+      "price": 400000,
+      "location": "Countryside",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhb7w6QLuOrlD5apEfsFem5COUhGcQb3zpYg&s"
+    },
+    {
+      "id": 12,
+      "name": "Modern Urban Loft",
+      "price": 620000,
+      "location": "Urban",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6QVBjUkUhpz_Xd6HFjGCfp5ub0Vj0agY6vw&s"
+    },
+    {
+      "id": 13,
+      "name": "Private Island Retreat",
+      "price": 3000000,
+      "location": "Private Island",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJgmnu9eiNOjlKnJKJteGpR9tMNiDOvLepA&s"
+    }
+  ]
