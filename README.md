@@ -34,7 +34,7 @@ Open the index.html file in your web browser to view the application.
 1. Navigate through the sections using the navigation links in the header.
 2. Explore different property listings and click on "View Details" to learn more about each property.
 3. Use the property type form to filter properties based on your preferences.
-4. Read testimonials from satisfied customers in the testimonials section.
+4. Read testimonials from satisfied customers in the testimonial section.
 5. Contact us directly using the contact form at the bottom of the page.
 
  ## Contributing
