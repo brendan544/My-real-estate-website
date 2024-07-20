@@ -144,13 +144,13 @@ h1 {
   
   @media (max-width: 768px) {
     .property {
-      width: calc(50% - 20px); /* Adjust for 2 columns on smaller screens */
+      width: calc(50% - 20px); 
     }
   }
   
   @media (max-width: 576px) {
     .property {
-      width: 100%; /* Full width for 1 column on mobile */
+      width: 100%; 
     }
   }
   
