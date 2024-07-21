@@ -1,6 +1,6 @@
 # Dream Home Finder
 Welcome to Dream Home Finder, a web application designed to help users find their dream homes quickly and conveniently. Whether you're searching for a modern city apartment, a luxurious beachfront villa, or a cozy suburban house, our platform offers a curated selection of featured properties to suit various preferences and budgets.
-Here is the link to the website http://127.0.0.1:5500/index.htmlll
+Here is the link to the website http://127.0.0.1:5500/index.html
 
  # Table of Contents
   1. Features
